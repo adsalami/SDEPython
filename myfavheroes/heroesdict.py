@@ -10,5 +10,6 @@ thanos = {"strenght": "60", "dexterity": "85", "undefeatable": "y", "super_power
 ## display spiderman features
 spiderman = {"strenght": "80", "dexterity": "99", "undefeatable": "n", "super_power": "flying"}
 print( sango.keys())
-print( thanos.keys() )
-print( spiderman.keys() ) 
+print
+( thanos["strenght"] )
+print( spiderman["strenght"] ) 
