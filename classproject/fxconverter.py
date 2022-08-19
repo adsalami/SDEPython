@@ -1,17 +1,20 @@
 #!/usr/bin/python3
 
+# Gathering information needed for the conversion
 # From which currency: USD
 # To which currency: GBP
-# How much is the amount? 100
+# How much is the amount?
 
+# API Calls
+from forex_python.converter import CurrencyRates
+c = CurrencyRates()
 
-import requests
-
-from_currency = str(
-        input("Enter in the currency you'd like to convert from: ")).upper()
-
-to currency str(
-        input("Enter in the currency you'd like to convert to: ")).uppper()
+# Promomix-list/         t user to enter Currency they'd like to convert from
+from_cumyscript.sh*      rrency = str(
+       no_shebang.py*     input("Enter currency you'd like to convert from: ")).upper()
+       py3_shebang.py*   
+to_currLICENSE           ency str(
+       README.md          input("Enter currency you'd like to convert to: ")).uppper()
 
 amount = float(input("Enter in the amount of money: "))
 
